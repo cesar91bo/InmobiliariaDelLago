@@ -41,6 +41,8 @@
             this.lvListaLoc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.lvListaLoc.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lvListaLoc.ForeColor = System.Drawing.Color.White;
+            this.lvListaLoc.FullRowSelect = true;
+            this.lvListaLoc.GridLines = true;
             this.lvListaLoc.HideSelection = false;
             this.lvListaLoc.Location = new System.Drawing.Point(24, 133);
             this.lvListaLoc.Name = "lvListaLoc";
@@ -99,7 +101,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(54)))), ((int)(((byte)(75)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(54)))), ((int)(((byte)(70)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblConsultaLocatario);
             this.Controls.Add(this.btnSeleccionar);

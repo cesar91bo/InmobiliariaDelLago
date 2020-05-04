@@ -301,7 +301,7 @@
             // 
             // panelSombra
             // 
-            this.panelSombra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(54)))), ((int)(((byte)(70)))));
+            this.panelSombra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
             this.panelSombra.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSombra.Location = new System.Drawing.Point(220, 60);
             this.panelSombra.Name = "panelSombra";

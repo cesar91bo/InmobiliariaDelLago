@@ -22,7 +22,23 @@ namespace InmobiliariaLagos.Formularios
 
         private void btnBuscarCli_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Int32 i;
+                if (Int32.TryParse(txtNroCli.Text, out i) != false)
+                {
+                    BuscarCli(Convert.ToInt32(txtNroCli.Text));
+                }
+                else
+                {
+                    MessageBox.Show("Ingrese Nro. Locatario correcto para realizar la búsqueda", "Error de Ingreso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error de Ingreso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
 
         private void btnListadoCli_Click(object sender, EventArgs e)
@@ -38,8 +54,16 @@ namespace InmobiliariaLagos.Formularios
             ClienteCN clienteCN = new ClienteCN();
             var locatario = clienteCN.BuscarLocatarioPorID(nroLocatario);
 
-            lblCliente.Text = locatario.ApellidoyNombre;
-            txtNroCli.Text = locatario.NroCliente.ToString();
+            if (locatario != null)
+            {
+                lblCliente.Text = locatario.ApellidoyNombre;
+                txtNroCli.Text = locatario.NroCliente.ToString();
+            }
+            else
+            {
+                MessageBox.Show("No arrojó ningún resultado con ese valor", "Error de Ingreso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            
         }
     }
 }
