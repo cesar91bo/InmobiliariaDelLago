@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5e24aaa9136a4e3180e0bf06734120e1" Name="Diagram1" ZoomLevel="84">
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.AjustesStock" Width="1.5" PointX="8.25" PointY="54.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.ArchivosGenerados" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Articulos" Width="1.5" PointX="6" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.AsientosContables" Width="1.5" PointX="12" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.AutenticacionesWSAA" Width="1.5" PointX="19.75" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Bancos" Width="1.5" PointX="6.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Cajas" Width="1.5" PointX="7.5" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.CajasAperturas" Width="1.5" PointX="9.75" PointY="41.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.CajasAperturasDetalle" Width="1.5" PointX="21.75" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.CajasMovimientos" Width="1.5" PointX="12" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.CajasMovimientosDetalle" Width="1.5" PointX="14.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.CancelacionFacturas" Width="1.5" PointX="21.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.CancelacionFacturasCompra" Width="1.5" PointX="21.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Cheques" Width="1.5" PointX="9" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.CierresIvaCompras" Width="1.5" PointX="11.75" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Clientes" Width="1.5" PointX="3.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.CondicionesPago" Width="1.5" PointX="0.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.ControladoresFiscales" Width="1.5" PointX="9" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.CPostales" Width="1.5" PointX="4.5" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.CuentasBancarias" Width="1.5" PointX="15.75" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.CuentasContables" Width="1.5" PointX="9.75" PointY="47.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.DatosImpositivos" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Depositos" Width="1.5" PointX="18.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.DiaGeneracionInteres" Width="1.5" PointX="9" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Empresa" Width="1.5" PointX="6.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.EmpTarjetas" Width="1.5" PointX="9" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Errores" Width="1.5" PointX="21.75" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.EstadosCaja" Width="1.5" PointX="23.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.FacturasCompra" Width="1.5" PointX="3" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.FacturasCompraDetalle" Width="1.5" PointX="8.25" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.FacturasElectronicas" Width="1.5" PointX="23.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.FacturasVenta" Width="1.5" PointX="6" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.FacturasVentaDetalle" Width="1.5" PointX="11.25" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.FormasPago" Width="1.5" PointX="0.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.GeneracionInteres" Width="1.5" PointX="11.25" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Liquidaciones" Width="1.5" PointX="19.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.LiquidacionesFacturas" Width="1.5" PointX="22" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Modulos" Width="1.5" PointX="17.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.MovimientosBancos" Width="1.5" PointX="19" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.MovimientosDepositos" Width="1.5" PointX="23.75" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.ObservacionesCliente" Width="1.5" PointX="17.75" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.OrdenesPedidoFacturas" Width="1.5" PointX="23.75" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.OrdenesPedidos" Width="1.5" PointX="3" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.OrdenesPedidosDetalle" Width="1.5" PointX="5.25" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Pagos" Width="1.5" PointX="9" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.PagosDetalle" Width="1.5" PointX="14.25" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.PeriodosContables" Width="1.5" PointX="9.75" PointY="51.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.PreciosVenta" Width="1.5" PointX="8.25" PointY="57.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Presupuestos" Width="1.5" PointX="12" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.PresupuestosDetalles" Width="1.5" PointX="17.25" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Proveedores" Width="1.5" PointX="0.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Provincias" Width="1.5" PointX="2.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Recibos" Width="1.5" PointX="9" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.RecibosDetalle" Width="1.5" PointX="11.25" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.RecibosInmobiliaria" Width="1.5" PointX="23.75" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.ReferentesProveedores" Width="1.5" PointX="3" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.RegimenesImpositivos" Width="1.5" PointX="1.5" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Remitos" Width="1.5" PointX="14.25" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.RemitosCompra" Width="1.5" PointX="15" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.RemitosDetalle" Width="1.5" PointX="16.5" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.RemitosDetalleCompra" Width="1.5" PointX="19.25" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.RemitosXfacturados" Width="1.5" PointX="24.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.RetencionesGcia" Width="1.5" PointX="24.75" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Rubros" Width="1.5" PointX="3.75" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Seteos" Width="1.5" PointX="25.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.SubRubros" Width="1.5" PointX="3.75" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposCF" Width="1.5" PointX="25.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposCheques" Width="1.5" PointX="25.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposConceptoFactura" Width="1.5" PointX="3.75" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposDocFact" Width="1.5" PointX="0.75" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposDocumento" Width="1.5" PointX="1.5" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposFactura" Width="1.5" PointX="0.75" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposImpuestos" Width="1.5" PointX="3.75" PointY="48.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposIva" Width="1.5" PointX="6" PointY="37.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposMovimientosBanco" Width="1.5" PointX="16.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposMovimientosCaja" Width="1.5" PointX="9.75" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposMovimientosDepositos" Width="1.5" PointX="25.75" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposPagos" Width="1.5" PointX="9" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposPersona" Width="1.5" PointX="16.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposRetenciones" Width="1.5" PointX="25.75" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposUsuarios" Width="1.5" PointX="20" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposVendedores" Width="1.5" PointX="11.5" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.TiposVendedoresExternos" Width="1.5" PointX="11.5" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.UnidadesMedida" Width="1.5" PointX="3.75" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Usuarios" Width="1.5" PointX="22.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.Vendedores" Width="1.5" PointX="13.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.VendedoresFacturasVenta" Width="1.5" PointX="26.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SgPymeDelLagoModel.VendedoresRemitos" Width="1.5" PointX="26.75" PointY="13.625" IsExpanded="true" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_AjustesStock_Articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Articulos_Rubros" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Articulos_SubRubros" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Articulos_UnidadesMedida" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasCompraDetalle_Articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasDetalle_Articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_PreciosVenta_Articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_PresupuestosDetalles_Articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_RemitosDetalle_Articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_RemitosDetalleCompra_Articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_AsientosContables_AsientosContables" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_AsientosContables_Empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_AsientosContables_PeriodosContables" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Cheques_Bancos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_CajasAperturas_Cajas" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_CajasMovimientos_CajasAperturas" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_CajasMovimientos_TiposMovimientosCaja" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_CajasMovimientosDetalle_CajasMovimientosDetalle" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_CajasMovimientosDetalle_Cheques" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_CajasMovimientosDetalle_EmpTarjetas" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_CajasMovimientosDetalle_TiposPagos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_CancelacionFacturasCompra_MovimientosBancos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Cheques_Empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_PagosDetalle_Cheques" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_RecibosDetalle_Cheques" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Clientes_CPostales" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Clientes_RegimenesImpositivos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Clientes_TiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_DatosImpositivos_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Facturas_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Presupuestos_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Remitos_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Facturas_CondicionesPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasCompra_CondicionesPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_ControladoresFiscales_Empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_CPOSTALES_PROVINCIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Empresa_Empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Proveedores_CPostales" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Vendedores_CPostales" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_DatosImpositivos_Provincias" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_DatosImpositivos_TiposImpuestos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_GeneracionInteres_DiaGeneracionInteres" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasCompra_Empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasVenta_Empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Pagos_Empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Presupuestos_Empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Recibos_Empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Remitos_Remitos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_RemitosCompra_Empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_RecibosDetalle_EmpTarjetas" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasCompra_FormasPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasCompra_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasCompra_TiposDocFact" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasCompra_TiposFactura" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasCompraDetalle_FacturasCompra" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasCompraDetalle_TiposIva" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Concepto_Factura" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Facturas_FormasPago" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Facturas_TiposDocFact" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Facturas_TiposFactura" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasVenta_ConceptosFactura" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasVentaDetalle_FacturasVenta" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_GeneracionInteres_FacturasVenta" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Remitos_FacturasVenta" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_FacturasVentaDetalle_TiposIva" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_LiquidacionesFacturas_Liquidaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_MovimientosBancos_TiposMovimientosBanco" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_MovimientosBancos_TiposPersona" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_OrdenesPedidos_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_OrdenesPedidosDetalle_OrdenesPedidos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Pagos_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Pagos_TiposDocFact" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_PagosDetalle_Pagos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_PagosDetalle_TiposPagos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_PresupuestosDetalles_Presupuestos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Proveedores_TiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_ReferentesProveedores_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_RemitosCompra_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Recibos_TiposDocFact" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_RecibosDetalle_Recibos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_RecibosDetalle_TiposPagos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_RemitosDetalle_Remitos" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_RemitosDetalleCompra_RemitosCompra" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Vendedores_TiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_Usuarios_TiposUsuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_TiposVendedores_Vendedores" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.FK_TiposVendedoresExternos_Vendedores" ManuallyRouted="false" />
+        <AssociationConnector Association="SgPymeDelLagoModel.ModulosTiposUsuarios" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
