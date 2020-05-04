@@ -1,2 +1,2 @@
 # InmobiliariaDelLago
-Proyecto para una inmobiliaria para generar recibos 
+Proyecto para una inmobiliaria que generar recibos 
